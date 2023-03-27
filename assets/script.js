@@ -2,7 +2,6 @@ var inputEmail = document.querySelector('#email');
 var yourName = document.querySelector('#u-name');
 var inputPassword = document.querySelector('#password');
 var msgDiv = document.querySelector('#msg');
-var card = document.querySelectorAll('.card');
 var signUp = document.querySelector('#sign-up');
 var useMail = document.querySelector('#user-email');
 var useUser = document.querySelector('#user-name');
@@ -29,7 +28,7 @@ function lastUserRender() {
   usePw.textContent = password;
 }
 
-signUpButton.addEventListener("click", function(event) {
+signUp.addEventListener("click", function(event) {
   event.preventDefault();
 
   var email = document.querySelector("#email").value;

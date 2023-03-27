@@ -28,3 +28,26 @@ function lastUserRender() {
   useUser.textContent = username;
   usePw.textContent = password;
 }
+
+signUpButton.addEventListener("click", function(event) {
+  event.preventDefault();
+
+  var email = document.querySelector("#email").value;
+  var username = document.querySelector('#u-name').value;
+  var password = document.querySelector("#password").value;
+
+  if (email === "") {
+    displayMessage("error", "Email cannot be blank");
+  } else if (username === "") {
+    displayMessage("error, Username cannot be blank");
+  } else if (password === "") {
+    displayMessage("error", "Password cannot be blank");
+  } else {
+    displayMessage("success", "Registered successfully");
+
+    localStorage.setItem("email", email);
+    localStorage.setItem("username", username);
+    localStorage.setItem("password", password);
+    lastUserRender();
+  }
+});

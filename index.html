@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=".assets/css/style.css"/>
+  <title>Dom Stuff</title>
+</head>
+
+<body>
+  <header>
+    <h1>Dom Traversal practice</h1>
+  </header>
+
+  <div class="whole-thing">
+    <div class="card">
+      <h2> Sign up</h2>
+      <form>
+        <div class="in-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="example123@mail.com" />
+        </div>
+        <div class="in-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="u-name" placeholder="exName123" />
+        </div>
+        <div class="in-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="example123" />
+        </div>
+        <button id="sign-up">Sign up</button>
+      </form>
+    </div>
+    <div class="card">
+      <h2>User last registered:</h2>
+      <p>Email:<span id="user-email"></span></p>
+      <p>Username:<span id="user-name"></span></p>
+      <p>Password:<span id="user-password"></span></p>
+    </div>
+  </div>
+
+  <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

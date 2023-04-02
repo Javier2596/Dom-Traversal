@@ -42,7 +42,7 @@ signUp.addEventListener("click", function(event) {
   } else if (password === "") {
     displayMessage("error", "Password cannot be blank");
   } else {
-    displayMessage("success", "Registered successfully");
+    displayMessage("success", "Registered successfully check local storage");
 
     localStorage.setItem("email", email);
     localStorage.setItem("username", username);

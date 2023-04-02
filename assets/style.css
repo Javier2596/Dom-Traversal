@@ -92,8 +92,8 @@ input:hover {
   visibility: hidden;
   margin-top: 20px;
   font-weight: 700;
-  height: 1.2em;
-  font-size: 1.2em;
+  height: 1.6em;
+  font-size: 1em;
 }
 
 #msg.success,

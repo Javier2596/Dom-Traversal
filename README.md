@@ -8,7 +8,6 @@ This project was designed to show others how DOM (DOcument Object Model) travers
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 
 ## Installation

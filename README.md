@@ -19,12 +19,6 @@ There is no installation needed you can simply view this on any browser.
 
 When visiting the webpage from your browser you only need to play with the sign up section see what is happening in the DOM. After signing up on the webpage you can check the localstorage located in the browser's developer tools under the 'application' section called 'storage'. From there you will see the data that you enterer being saved. This data is also shared right underneath the sign up section when you finish signing up.
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
 ## License
+
+Boost Software License

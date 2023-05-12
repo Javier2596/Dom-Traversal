@@ -4,7 +4,7 @@
 
 This project was designed to show others how DOM (Document Object Model) traversal works using methods such as querySelector, setAttribute, and utilizing the local storage with getItem/ setItem, and addEventListener; demonstrated with a basic sign up page. My motivation for this project was to show the targeted audience that I am capable of creating a functional webpage with a signup button, and able to save data within the browser. This project solves basic DOM traversal issues that a basic website might need. One thing that i learned from this project is that basic code such as single lines of '.queryselector' and '.addEventListener' can make or break a website. 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
